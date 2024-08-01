@@ -1,7 +1,7 @@
 import React from "react";
 
 const cardClasses =
-  "flex flex-col basis-1/4 p-6 border-gray-200 border border-gray-200 rounded-lg shadow";
+  "flex flex-col lg:basis-1/4 shrink basis-full p-6 border-gray-200 bg-gray-700 border border-gray-200 rounded-lg shadow mt-4";
 
 const diff_years = function (dt1: Date, dt2: Date) {
   var diff = (dt2.getTime() - dt1.getTime()) / 1000;
@@ -11,10 +11,10 @@ const diff_years = function (dt1: Date, dt2: Date) {
 export default function AboutMe() {
   return (
     <div className="flex text-white z-10 justify-center items-center">
-      <div className="mx-auto max-w-screen-xl px-4 py-8">
+      <div className="mx-auto max-w-screen-xl px-4 lg:mt-20">
         <div className="flex flex-col w-full text-center justify-center items-center">
-          <h1 className="text-3xl font-extrabold">About Me</h1>
-          <div className="flex flex-row space-x-4 w-full mt-4 text-center justify-center items-center">
+          <h1 className="text-5xl lg:text-3xl font-extrabold">About Me</h1>
+          <div className="flex flex-col lg:flex-row lg:space-x-4 w-full mt-4 text-center justify-center items-center">
             <div className={cardClasses}>
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                 I am full stack with over{" "}
