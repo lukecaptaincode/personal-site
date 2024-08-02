@@ -17,8 +17,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/bg.jpg"
-          layout="fill"
-          objectFit="cover"
+          fill
           alt="Background"
           className="object-cover object-center w-full h-full"
         />

@@ -16,9 +16,9 @@ export default function AboutMe() {
           <h1 className="text-5xl lg:text-3xl font-extrabold">About Me</h1>
           <div className="flex flex-col lg:flex-row lg:space-x-4 w-full mt-4 text-center justify-center items-center">
             <div className={cardClasses}>
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                I am full stack with over{" "}
-                {diff_years(new Date(2013, 9, 7), new Date())} years of
+              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
+                <span className="font-extrabold">I am</span> full stack with
+                over {diff_years(new Date(2013, 9, 7), new Date())} years of
                 experience.
               </h5>
               <p className="font-normal text-white">
@@ -29,8 +29,9 @@ export default function AboutMe() {
               </p>
             </div>
             <div className={cardClasses}>
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                I am an amateur game developer.
+              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
+                <span className="font-extrabold">I am</span> an amateur game
+                developer.
               </h5>
               <p className="font-normal text-white">
                 I enjoy building games using Unity and Godot. I am currently
@@ -38,8 +39,8 @@ export default function AboutMe() {
               </p>
             </div>
             <div className={cardClasses}>
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                I am a Maker.
+              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
+                <span className="font-extrabold">I am</span> a Maker.
               </h5>
               <p className="font-normal text-white">
                 I love to build things. From woodworking, IOT, leatherworking,
@@ -47,8 +48,9 @@ export default function AboutMe() {
               </p>
             </div>
             <div className={cardClasses}>
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                I am am Armoured fighter.
+              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">
+                <span className="font-extrabold">I am</span> an Armoured
+                fighter.
               </h5>
               <p className="font-normal text-white">
                 I take part in a sport called medieval armoued combat, which is
